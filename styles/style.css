@@ -144,3 +144,21 @@
 .contact-form form div:last-child{
   display: unset;
 }
+
+.blog-conatiner{
+  margin: 23px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.blogItem{
+  font-family: "Fira Sans", sans-serif;
+  margin: 20px 0;
+}
+
+.blogItem h2{
+  
+}
+
+.blogItem P{
+  font-family: "Source Code Pro", monospace;
+}
