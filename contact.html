@@ -22,22 +22,35 @@
     </div>
 
     <div class="main">
-      <div class="info-container">
-        <div class="dev-info">
-          <div class="hello">Hii I am</div>
-          <div class="name">Suryakanta Mohanty</div>
-          <div class="about">Developer, Enterprenure</div>
-          <div class="more-about">I am a developer, and I love to drink coffe. I live in Odisha <br>and I love to visit New Delhi to buy some coffee.</div>
-          
-          <div class="btn">
-            <button>Download CV</button>
-            <button>Contact Me</button>
+      <div class="contact-form">
+        <h1>Contact me for work or general enquiries</h1>
+        <form>
+          <div class="mb-3">
+            <label for="clientName" class="form-label">Name</label>
+            <input type="name" class="form-control" id="clintName" aria-describedby="emailHelp">
           </div>
-        </div>
-        <div class="dev-pic">
-          <img src="./images/rTkJ7v-man-png-image.png" alt="Suryakanta">
-        </div>
-      </div>  
+          <div class="mb-3">
+            <label for="clientEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clintEmail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="clientPhone" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="clientPhone">
+          </div>
+          <div class="mb-3">
+            <label for="clientEnquiry" class="form-label">Enquiry</label>
+            <input type="text" class="form-control" id="clientEnquiry">
+          </div>
+          <!-- <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="isClient">
+            <label class="form-check-label" for="isClient">I want you to work on a project with me.</label>
+          </div> -->
+          <div class="btn">
+            <button type="submit" >Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
 
   </div>
