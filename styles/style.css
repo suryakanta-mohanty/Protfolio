@@ -107,6 +107,8 @@
   outline: 1.2px solid red;
 }
 
+/* -- contact form -- */
+
 .contact-form{
   font-family: "Fira Sans", sans-serif;
   padding: 100px 100px;
@@ -145,6 +147,8 @@
   display: unset;
 }
 
+/* -- blog page -- */
+
 .blog-conatiner{
   margin: 23px;
   font-family: "Fira Sans", sans-serif;
@@ -161,4 +165,57 @@
 
 .blogItem P{
   font-family: "Source Code Pro", monospace;
+}
+
+/* -- my intro -- */
+
+.intro h1, .intro h2{
+  font-family: "Fira Sans", sans-serif;
+  margin: 12px;
+}
+
+.intro p{
+  font-family: "Source Code Pro", monospace;
+  margin: 12px;
+}
+
+.intro h2{
+
+}
+
+.skill-container{
+  padding: 12px;
+}
+
+.skill-item{
+  display: flex;
+}
+
+.skill-name{
+  font-family: "Fira Sans", sans-serif;
+
+}
+
+.skill{
+  height: 10px;
+  width: 200px;
+  background-color: red;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1.2px solid;
+}
+
+.hundered{
+  width: 200px;
+}
+
+.fifty{
+  width: 100px;
+  background-color: yellow;
+}
+
+.t5{
+  width: 50px;
+  background-color: aqua;
 }
